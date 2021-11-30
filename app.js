@@ -21,6 +21,7 @@ const input_cards = document.querySelector('#txt-cards');
 input_cards.addEventListener('keyup', RandomCards);
 
 function RandomCards (event) {
+  main_cards.innerHTML = '';
   const selectCards = parseInt(input_cards.value);
   console.log(selectCards);
   if (event.keyCode === 13) {
