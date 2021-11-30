@@ -17,9 +17,25 @@ header{
   width: 100%;
   height: 10%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: #047474;
+}
+
+p {
+  font-size: 1.5rem;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+  text-align: center;
 }
 
 .card {
